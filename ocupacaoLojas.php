@@ -11,67 +11,57 @@
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <!-- Custom styles for this template -->
       <link href="dashboard.css" rel="stylesheet">
+      <link href="css/custom.css" rel="stylesheet">
    </head>
    <body>
-      <nav class="navbar navbar-dark bg-primary sticky-top bg-dark flex-md-nowrap p-0">
-         <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="index.html">Vp6 Teste</a>
-         <ul class="navbar-nav px-3">
-            <li class="nav-item text-nowrap">
-               <a class="nav-link" href="#">Sign out</a>
-            </li>
-         </ul>
-      </nav>
-      <div class="container-fluid">
-         <div class="row">
-            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-               <div class="sidebar-sticky">
-                  <ul class="nav flex-column">
-                  <li class="nav-item">
-                     <a class="nav-link active" href="index.html">
-                     <span data-feather="home"></span>
-                     Dashboard
-                     <span class="sr-only">(current)</span>
-                     </a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="orders.html">
-                     <span data-feather="file-text"></span>
-                     Tabela Inadimplência
-                     </a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="tabelaVendas.html">
-                     <span data-feather="file-text"></span>
-                     Tabela Vendas
-                     </a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="ocupacaoLojas.html">
-                     <span data-feather="file-text"></span>
-                     Tabela Ocupação Lojas
-                     </a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="tabelaFluxo.html">
-                     <span data-feather="file-text"></span>
-                     Tabela Fluxo de pessoas
-                     </a>
-                  </li>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="estacionamentoReceita.html">
-                     <span data-feather="file-text"></span>
-                     Tabela Receita Estacionamento
-                     </a>
-                  </li>
-                  <li class="nav-item">
-                        <a class="nav-link" href="estacionamentoFluxo.html">
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">VP6 It Consulting</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="tabelaInadimplencia.php">
                             <span data-feather="file-text"></span>
-                            Tabela Fluxo Estacionamento
+                            Inadimplência
                         </a>
                     </li>
-               </div>
-            </nav>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tabelaVendas.php">
+                            <span data-feather="file-text"></span>
+                            Vendas
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ocupacaoLojas.php">
+                            <span data-feather="file-text"></span>
+                            Ocupação Lojas
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tabelaFluxo.php">
+                            <span data-feather="file-text"></span>
+                            Fluxo de pessoas
+                        </a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="estacionamentoReceita.php">
+                            <span data-feather="file-text"></span>
+                            Receita Estacionamento
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="estacionamentoFluxo.php">
+                            <span data-feather="file-text"></span>
+                            Fluxo Estacionamento
+                        </a>
+                    </li>
+                </ul>
+        </nav>
             <div class="container">
                <div class="jumbotron">
                <div class="menu" id="menu">
@@ -86,14 +76,14 @@
                            <th scope="col" colspan="1">
                               <center>Lojas(Qtde)</center>
                            </th>
-                           <td colspan="2">589</td>
+                           <td class="azul" colspan="2">589</td>
                            <th scope="col" colspan="2">
                               <center>ABL (m²)</center>
                            </th>
-                           <td colspan="3">448</td>
+                           <td colspan="3" class="azul">448</td>
                         </tr>
                      </thead>
-                  </table>
+                  </table> 
                   <table class="table table-bordered">
                   <tr bgcolor='#B0C4DE'>
                      <br>
@@ -103,11 +93,11 @@
                      <th scope="col" colspan="1">
                         <center>Lojas(Qtde)</center>
                      </th>
-                     <td colspan="2">354</td>
+                     <td colspan="2" class="azul">354</td>
                      <th colspan="1">
                         <center>ABL (m²)</center>
                      </th>
-                     <td colspan="3">5435</td>
+                     <td colspan="3" class="azul">5435</td>
                   </tr>
                   <tr bgcolor='#B0C4DE'>
                      <th scope="col" rowspan="2">
@@ -223,13 +213,13 @@
                            <th scope="col" colspan="1">
                               <center>Lojas(Qtde)</center>
                            </th>
-                           <td colspan="2">
+                           <td class="azul" colspan="2">
                               <center>354</center>
                            </td>
                            <th colspan="1">
                               <center>ABL (m²)</center>
                            </th>
-                           <td colspan="3">
+                           <td class="azul" colspan="3">
                               <center>354</center>
                            </td>
                         </tr>
@@ -311,35 +301,35 @@
                               <th>
                                  <center>Lojas Locadas:</center>
                               </th>
-                              <td>72%</td>
+                              <td class="azul">72%</td>
                               <th scope="col">
                                  <center>Lojas (Qtde)</center>
                               </th>
-                              <td>15.345 </td>
+                              <td class="azul">15.345 </td>
                               <th scope="col">
                                  <center>ABL (m²)</center>
                               </th>
-                              <td> 45.355 </td>
+                              <td class="azul"> 45.355 </td>
                            </tr>
                            <tr bgcolor='#B0C4DE'>
                               <th>
                                  <center>Lojas Abertas:</center>
                               </th>
-                              <td>72%</td>
+                              <td class="azul">72%</td>
                               <th scope="col">
                                  <center>Lojas (Qtde)</center>
                               </th>
-                              <td>15.345 </td>
+                              <td class="azul">15.345 </td>
                               <th scope="col">
                                  <center>ABL (m²)</center>
                               </th>
-                              <td> 45.355 </td>
+                              <td class="azul" class="azul"> 45.355 </td>
                            </tr>
                            <tr bgcolor='#B0C4DE'>
                               <th colspan="3">
                                  <center>DIAS SEM ALTERAÇÃO NOS NÚMEROS</center>
                               </th>
-                              <td colspan="5">43</td>
+                              <td colspan="5" class="azul">43</td>
                            </tr>
                         </thead>
                      </table>

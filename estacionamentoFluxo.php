@@ -7,128 +7,123 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
+
     <title>Dashboard</title>
+
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
     <!-- Custom styles for this template -->
     <link href="dashboard.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-primary sticky-top bg-dark flex-md-nowrap p-0">
-        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="index.html">Vp6 Teste</a>
-        <ul class="navbar-nav px-3">
-            <li class="nav-item text-nowrap">
-                <a class="nav-link" href="#">Sign out</a>
-            </li>
-        </ul>
-    </nav>
-    <div class="container-fluid">
-        <div class="row">
-            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-                <div class="sidebar-sticky">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.html">
-                                <span data-feather="home"></span>
-                                Dashboard
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="orders.html">
-                                <span data-feather="file-text"></span>
-                                Tabela Inadimplência
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="tabelaVendas.html">
-                                <span data-feather="file-text"></span>
-                                Tabela Vendas
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="ocupacaoLojas.html">
-                                <span data-feather="file-text"></span>
-                                Tabela Ocupação Lojas
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="tabelaFluxo.html">
-                                <span data-feather="file-text"></span>
-                                Tabela Fluxo de pessoas
-                            </a>
-                        </li>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="estacionamentoReceita.html">
-                                <span data-feather="file-text"></span>
-                                Tabela Receita Estacionamento
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="estacionamentoFluxo.html">
-                                <span data-feather="file-text"></span>
-                                Tabela Fluxo Estacionamento
-                            </a>
-                        </li>
-                </div>
-            </nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">VP6 It Consulting</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="tabelaInadimplencia.php">
+                            <span data-feather="file-text"></span>
+                            Inadimplência
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tabelaVendas.php">
+                            <span data-feather="file-text"></span>
+                            Vendas
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ocupacaoLojas.php">
+                            <span data-feather="file-text"></span>
+                            Ocupação Lojas
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tabelaFluxo.php">
+                            <span data-feather="file-text"></span>
+                            Fluxo de pessoas
+                        </a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="estacionamentoReceita.php">
+                            <span data-feather="file-text"></span>
+                            Receita Estacionamento
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="estacionamentoFluxo.php">
+                            <span data-feather="file-text"></span>
+                            Fluxo Estacionamento
+                        </a>
+                    </li>
+                </ul>
+        </nav>
             <div class="container">
                 <div class="menu" id="menu">
                     <div class="jumbotron">
                         <h2>
                             <p>
-                                <center>ESTACIONAMENTO-RECEITA</h3>
-                            </p>
-                            </center>
-                            <thead>
-                                <table class="table table-bordered">
-                                    <tr bgcolor='#B0C4DE'>
-                                        <th scope="col" rowspan="2">
-                                            <center>
-                                                <br>Shopping
-                                            </center>
-                                        </th>
-                                        <th scope="col" colspan="3">
-                                            <center>Semana Anterior</center>
-                                        </th>
-                                        <th scope="col" colspan="3">
-                                            <center>Mês Atual</center>
-                                        </th>
-                                        <th scope="col" colspan="3">
-                                            <center>YTD</center>
-                                        </th>
-                                        <tr bgcolor='#B0C4DE'>
-                                            <th>
-                                                <center>2017</center>
-                                            </th>
-                                            <th>
-                                                <center>2018</center>
-                                            </th>
-                                            <th>
-                                                <center>%</center>
-                                            </th>
-                                            <th>
-                                                <center>2017</center>
-                                            </th>
-                                            <th>
-                                                <center>2018</center>
-                                            </th>
-                                            <th>
-                                                <center>%</center>
-                                            </th>
-                                            <th>
-                                                <center>2017</center>
-                                            </th>
-                                            <th>
-                                                <center>2018</center>
-                                            </th>
-                                            <th>
-                                                <center>%</center>
-                                            </th>
-                                        </tr>
-                                    </tr>
+                                <center>ESTACIONAMENTO-FLUXO</h2>
+                        </p>
+                        </center>
+                        <table class="table table-bordered">
+                            <tr bgcolor='#B0C4DE'>
+                                <th scope="col" rowspan="2">
+                                    <center>
+                                        <br>Shopping</center>
+                                </th>
+                                <th scope="col" colspan="3">
+                                    <center>Semana Anterior</center>
+                                </th>
+                                <th scope="col" colspan="3">
+                                    <center>Mês Atual</center>
+                                </th>
+                                <th scope="col" colspan="3">
+                                    <center>YTD</center>
+                                </th>
+
+                                <tr bgcolor='#B0C4DE'>
+
+                                    <th>
+                                        <center>2017</center>
+                                    </th>
+                                    <th>
+                                        <center>2018</center>
+                                    </th>
+                                    <th>
+                                        <center>%</center>
+                                    </th>
+
+                                    <th>
+                                        <center>2017</center>
+                                    </th>
+                                    <th>
+                                        <center>2018</center>
+                                    </th>
+                                    <th>
+                                        <center>%</center>
+                                    </th>
+                                    <th>
+                                        <center>2017</center>
+                                    </th>
+                                    <th>
+                                        <center>2018</center>
+                                    </th>
+                                    <th>
+                                        <center>%</center>
+                                    </th>
+                                </tr>
+                            </tr>
                             </thead>
                             <tbody>
                                 <tr bgcolor="#FFFFF0">
@@ -144,6 +139,8 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
+
+
                                 </tr>
                                 <tr bgcolor="#FFFFF0">
                                     <th scope="row" bgcolor='#F0FFFF'>
@@ -158,6 +155,7 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
+
                                 </tr>
                                 <tr bgcolor="#FFFFF0">
                                     <th scope="row" bgcolor='#F0FFFF'>
@@ -256,6 +254,7 @@
                                         <td></td>
                                         <td></td>
                                     </tr>
+
                                     <tr bgcolor="#FFFFF0">
                                         <th scope="row" bgcolor='#F0FFFF'>
                                             <center>EVVS</center>
@@ -298,12 +297,15 @@
                                             <td></td>
                                         </tr>
                             </tbody>
-                            </table>
+                        </table>
                     </div>
                 </div>
             </div>
+
+
+
             <!-- Bootstrap core JavaScript
-         ================================================== -->
+    ================================================== -->
             <!-- Placed at the end of the document so the pages load faster -->
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
                 crossorigin="anonymous"></script>
@@ -313,11 +315,13 @@
             </script>
             <script src="../../../../assets/js/vendor/popper.min.js"></script>
             <script src="../../../../dist/js/bootstrap.min.js"></script>
+
             <!-- Icons -->
             <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
             <script>
                 feather.replace()
             </script>
+
             <!-- Graphs -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
             <script>

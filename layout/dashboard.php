@@ -12,8 +12,9 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="dashboard.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 </head>
-
+!
 <body>
     <nav class="navbar navbar-dark bg-primary sticky-top bg-dark flex-md-nowrap p-0">
         <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="index.html">Vp6 Teste</a>
@@ -36,7 +37,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="orders.html">
+                            <a class="nav-link" href="orders.php">
                                 <span data-feather="file-text"></span>
                                 Tabela Inadimplência
                             </a>
