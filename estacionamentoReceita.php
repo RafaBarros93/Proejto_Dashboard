@@ -23,45 +23,51 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="tabelaInadimplencia.php">
-                            <span data-feather="file-text"></span>
-                            Inadimplência
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tabelaVendas.php">
-                            <span data-feather="file-text"></span>
-                            Vendas
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ocupacaoLojas.php">
-                            <span data-feather="file-text"></span>
-                            Ocupação Lojas
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tabelaFluxo.php">
-                            <span data-feather="file-text"></span>
-                            Fluxo de pessoas
-                        </a>
-                    </li>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="estacionamentoReceita.php">
-                            <span data-feather="file-text"></span>
-                            Receita Estacionamento
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="estacionamentoFluxo.php">
-                            <span data-feather="file-text"></span>
-                            Fluxo Estacionamento
-                        </a>
-                    </li>
-                </ul>
+            <li class="nav-item">
+                <a class="nav-link" href="tabelaInadimplencia.php">
+                    <span data-feather="file-text"></span>
+                    Inadimplência
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="tabelaVendas.php">
+                    <span data-feather="file-text"></span>
+                    Vendas
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="ocupacaoLojas.php">
+                    <span data-feather="file-text"></span>
+                    Ocupação Lojas
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="tabelaFluxo.php">
+                    <span data-feather="file-text"></span>
+                    Fluxo de pessoas
+                </a>
+            </li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="estacionamentoReceita.php">
+                    <span data-feather="file-text"></span>
+                    Receita Estacionamento
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="estacionamentoFluxo.php">
+                    <span data-feather="file-text"></span>
+                    Fluxo Estacionamento
+                </a>
+            </li>
+        </ul>
     </nav>
+    <div class="container">
+        <br>
+        <center>
+            <img src="image/tenco.png" />
+        </center>
+    </div>
     <div class="container">
         <div class="menu" id="menu">
             <div class="jumbotron">
@@ -119,7 +125,7 @@
                             </tr>
                     </thead>
                     <tbody>
-                        <tr bgcolor="#FFFFF0">
+                        <tr>
                             <th scope="row" bgcolor='#F0FFFF'>
                                 <center>EAGS</center>
                             </th>
@@ -133,7 +139,7 @@
                             <td></td>
                             <td></td>
                         </tr>
-                        <tr bgcolor="#FFFFF0">
+                        <tr>
                             <th scope="row" bgcolor='#F0FFFF'>
                                 <center>EARA</center>
                             </th>
@@ -147,7 +153,7 @@
                             <td></td>
                             <td></td>
                         </tr>
-                        <tr bgcolor="#FFFFF0">
+                        <tr>
                             <th scope="row" bgcolor='#F0FFFF'>
                                 <center>EBRG</center>
                             </th>
@@ -161,7 +167,7 @@
                             <td></td>
                             <td></td>
                         </tr>
-                        <tr bgcolor="#FFFFF0">
+                        <tr>
                             <th scope="row" bgcolor='#F0FFFF'>
                                 <center>ECCARI</center>
                             </th>
@@ -175,7 +181,7 @@
                             <td></td>
                             <td></td>
                         </tr>
-                        <tr bgcolor="#FFFFF0">
+                        <tr>
                             <th scope="row" bgcolor='#F0FFFF'>
                                 <center>EITQ</center>
                             </th>
@@ -188,7 +194,7 @@
                             <td></td>
                             <td></td>
                             <td></td>
-                            <tr bgcolor="#FFFFF0">
+                            <tr>
                                 <th scope="row" bgcolor='#F0FFFF'>
                                     <center>EJRS</center>
                                 </th>
@@ -202,7 +208,7 @@
                                 <td></td>
                                 <td></td>
                             </tr>
-                            <tr bgcolor="#FFFFF0">
+                            <tr>
                                 <th scope="row" bgcolor='#F0FFFF'>
                                     <center>ELGS</center>
                                 </th>
@@ -216,7 +222,7 @@
                                 <td></td>
                                 <td></td>
                             </tr>
-                            <tr bgcolor="#FFFFF0">
+                            <tr>
                                 <th scope="row" bgcolor='#F0FFFF'>
                                     <center>ERRM</center>
                                 </th>
@@ -230,7 +236,7 @@
                                 <td></td>
                                 <td></td>
                             </tr>
-                            <tr bgcolor="#FFFFF0">
+                            <tr>
                                 <th scope="row" bgcolor='#F0FFFF'>
                                     <center>EVCF</center>
                                 </th>
@@ -244,7 +250,7 @@
                                 <td></td>
                                 <td></td>
                             </tr>
-                            <tr bgcolor="#FFFFF0">
+                            <tr>
                                 <th scope="row" bgcolor='#F0FFFF'>
                                     <center>EVVS</center>
                                 </th>
@@ -258,7 +264,7 @@
                                 <td></td>
                                 <td></td>
                             </tr>
-                            <tr bgcolor="#FFFFF0">
+                            <tr>
                                 <th scope="row" bgcolor='#F0FFFF'>
                                     <center>Total</center>
                                 </th>
@@ -271,7 +277,7 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <tr bgcolor="#FFFFF0">
+                                <tr>
                                     <th scope="row" bgcolor='#F0FFFF'>
                                         <center>Média</center>
                                     </th>
@@ -286,7 +292,7 @@
                                     <td></td>
                                 </tr>
                     </tbody>
-               </table>
+                    </table>
             </div>
         </div>
     </div>

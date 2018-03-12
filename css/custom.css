@@ -1,27 +1,40 @@
 .table-bordered {
     border: 1px solid silver;
-    background-color: #FFFFF0;
+    background-color: #D3D3D3;
     border-color: #FFFFF0;
 }
 
 .table .table {
-    background-color: #fff;
+    background-color: white;
     border-color: #FFFFF0;
 }
 
 table {
-    border-color: #FFFFF0;
+    border-color: white;
+    background-color: silver;
 }
 
 th {
     text-align: inherit;
-    color: #3A5FCD;
+    color: white;
+    background-color: rgb(51, 63, 79);
+    font-family: 'Century Gothic';
+    font-weight: normal;
 }
 
 td {
-    color: black;
+    color: white;
     font-weight: bold;
     width: 33%;
+    background-color: #A9A9A9;
+}
+
+th.color {
+    color: white;
+    font-weight: bold;
+    width: 33%;
+    background-color: rgb(29, 54, 101);
+    font-family: 'Century Gothic';
 }
 
 table {
@@ -33,12 +46,13 @@ font.vermelho {
 }
 
 font.verde {
-    color: #00FF00;
+    color: green;
 }
 
 h2 {
+    font-family: 'Century Gothic';
     text-align: inherit;
-    color: #3A5FCD;
+    color: rgb(51, 63, 79);
 }
 
 td.azul {
@@ -47,32 +61,32 @@ td.azul {
 
 .table-bordered td,
 .table-bordered th {
-    border: 1px solid #3A5FCD !important;
+    border: 1px solid whitesmoke !important;
     table-layout: fixed;
     box-sizing: border-box;
     border-collapse: collapse;
-    width:20px;
-    height:20px;
-    padding:10px;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
 }
 
 .table th,
 .table td {
     padding: 0.75rem;
     vertical-align: top;
-    border-top: 1px solid #3A5FCD;
-    width:30px;
-    height:30px;
-    padding:5px;
+    border-top: 1px solid whitesmoke;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
 }
 
 .table thead th {
     vertical-align: bottom;
-    border-bottom: 1px solid #3A5FCD;
+    border-bottom: 1px solid white;
 }
 
 .table tbody+tbody {
-    border-top: 1px solid #3A5FCD;
+    border-top: 1px solid rgb(51, 63);
 }
 
 li {
@@ -91,24 +105,27 @@ li {
     margin-bottom: 0;
     list-style: none;
     text-align: center;
-    
 }
-.navbar-expand-lg{
-    width:auto;
-    height:60px;
-    margin-top:-6px;
-    position:relative;
-    background-color:#3A5FCD;
+
+.navbar-expand-lg {
+    width: auto;
+    height: 60px;
+    margin-top: -6px;
+    position: relative;
+    background-color: #3A5FCD;
     text-align: center;
     color: #3A5FCD;
 }
+
 .navbar-dark .navbar-brand {
     color: #3A5FCD;
 }
+
 .navbar-dark .navbar-nav .nav-link {
-    color:#3A5FCD;
+    color: #3A5FCD;
 }
-.minhabrand{
+
+.minhabrand {
     color: #3A5FCD;
     display: inline-block;
     padding-top: .3125rem;
@@ -117,4 +134,20 @@ li {
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap
+}
+
+.teste {
+    background-color: gray;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
+td.especial {
+    background-color: #dfdbdb;
+    border-color: #dfdbdb;
+    border: 1px solid whitesmoke !important;
+    
 }

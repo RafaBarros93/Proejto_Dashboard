@@ -68,6 +68,12 @@
                     </li>
                 </ul>
     </nav>
+    <div class="container">
+            <br>
+            <center>
+                <img src="image/tenco.png" />
+            </center>
+        </div>
 
     <div class="container">
         <div class="menu" id="menu">
@@ -110,7 +116,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr bgcolor="#FFFFF0">
+                            <tr>
                                 <th scope="row" bgcolor='#F0FFFF'>
                                     <center>AGS</center>
                                 </th>
@@ -126,7 +132,7 @@
 
 
                             </tr>
-                            <tr bgcolor="#FFFFF0">
+                            <tr>
                                 <th scope="row" bgcolor='#F0FFFF'>
                                     <center>ARA</center>
                                 </th>
@@ -141,7 +147,7 @@
                                 <td></td>
 
                             </tr>
-                            <tr bgcolor="#FFFFF0">
+                            <tr>
                                 <th scope="row" bgcolor='#F0FFFF'>
                                     <center>BRG</center>
                                 </th>
@@ -155,7 +161,7 @@
                                 <td></td>
                                 <td></td>
                             </tr>
-                            <tr bgcolor="#FFFFF0">
+                            <tr>
                                 <th scope="row" bgcolor='#F0FFFF'>
                                     <center>CCARI2</center>
                                 </th>
@@ -169,7 +175,7 @@
                                 <td></td>
                                 <td></td>
                             </tr>
-                            <tr bgcolor="#FFFFF0">
+                            <tr>
                                 <th scope="row" bgcolor='#F0FFFF'>
                                     <center>ITQ</center>
                                 </th>
@@ -183,7 +189,7 @@
                                 <td></td>
                                 <td></td>
                             </tr>
-                            <tr bgcolor="#FFFFF0">
+                            <tr>
                                 <th scope="row" bgcolor='#F0FFFF'>
                                     <center>JRS</center>
                                 </th>
@@ -197,7 +203,7 @@
                                 <td></td>
                                 <td></td>
                             </tr>
-                            <tr bgcolor="#FFFFF0">
+                            <tr>
                                 <th scope="row" bgcolor='#F0FFFF'>
                                     <center>LGS</center>
                                 </th>
@@ -211,7 +217,7 @@
                                 <td></td>
                                 <td></td>
                             </tr>
-                            <tr bgcolor="#FFFFF0">
+                            <tr>
                                 <th scope="row" bgcolor='#F0FFFF'>
                                     <center>RRM</center>
                                 </th>
@@ -225,7 +231,7 @@
                                 <td></td>
                                 <td></td>
                             </tr>
-                            <tr bgcolor="#FFFFF0">
+                            <tr>
                                 <th scope="row" bgcolor='#F0FFFF'>
                                     <center>VCF</center>
                                     <td></td>
@@ -238,7 +244,7 @@
                                     <td></td>
                                     <td></td>
                             </tr>
-                            <tr bgcolor="#FFFFF0">
+                            <tr>
                                 <th scope="row" bgcolor='#F0FFFF'>
                                     <center>VVS</center>
                                     <td></td>
@@ -251,7 +257,7 @@
                                     <td></td>
                                     <td></td>
                             </tr>
-                            <tr bgcolor="#FFFFF0">
+                            <tr>
                                 <th scope="row" bgcolor='#F0FFFF'>
                                     <center>Total</center>
                                     <td></td>
@@ -264,7 +270,7 @@
                                     <td></td>
                                     <td></td>
                             </tr>
-                            <tr bgcolor="#FFFFF0">
+                            <tr>
                                 <th scope="row" bgcolor='#F0FFFF'>
                                     <center>Média</center>
                                     <td></td>

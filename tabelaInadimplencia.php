@@ -16,7 +16,6 @@
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
-
         <!-- Custom styles for this template -->
         <link href="dashboard.css" rel="stylesheet">
         <link href="css/custom.css" rel="stylesheet">
@@ -72,6 +71,12 @@
                 </ul>
         </nav>
         <div class="container">
+        <br>   
+        <center>
+                <img src="image/tenco.png" />
+            </center>
+        </div>
+        <div class="container">
             <div class="menu" id="menu">
                 <div class="jumbotron">
                     <h2>
@@ -84,46 +89,47 @@
                             <tr>
                                 <th scope="col" bgcolor=#B0C4DE colspan="3">
                                     <center>
-                                        <font color="#3A5FCD" size="4">R$</center>
+                                        R$</center>
                                 </th>
-                                <td class="azul" bgcolor='#B0C4DE' colspan="2">
-                                    <center>15.62617</td>
-                                <th scope="col" bgcolor='#B0C4DE' colspan="3">
-                                    <center>
-                                        <font color="#3A5FCD" size="4">%</center>
+                                <th class="azul" colspan="2">
+                                    <center>15.62617</th>
+                                <th scope="col" colspan="3">
+                                    <center> %</center>
+
                                 </th>
-                                <td class="azul" bgcolor='#B0C4DE' colspan="4">
+                                <th colspan="4">
                                     <center>15%</center>
-                                </td>
+                                </th>
                             </tr>
                             <tr bgcolor='#B0C4DE'>
                                 <th scope="col" colspan="1">
-                                    <center>
-                                        <font color="#3A5FCD" size="3">Visão</center>
+                                    <center> Visão</center>
                                 </th>
                                 <th scope="col" colspan="2">
-                                    <center>
-                                        <font color="#3A5FCD" size="3">Faturamento com vencimento no mês atual (Empreendedor)</center>
+                                    <center> Faturamento com vencimento no mês atual (Empreendedor)</center>
                                 </th>
+
+
+
                                 <th scope="col" colspan="2">
                                     <center>
-                                        <font color="#3A5FCD" size="3">Arrecadação do
-                                            <center>Mês</center>
+                                        Arrecadação do
+                                        <center>Mês</center>
                                     </center>
                                 </th>
                                 <th valign="top" scope="col" colspan="4">
                                     <center>
-                                        <font color="#3A5FCD" size="3">Recuperação
-                                            <br>do
-                                            <br>Mês</center>
+                                        Recuperação
+                                        <br>do
+                                        <br>Mês</center>
                                 </th>
                                 <th scope="col" colspan="2">
                                     <center>
-                                        <font color="#3A5FCD" size="3">Inadimplência
-                                            <br>Líquida</center>
+                                        Inadimplência
+                                        <br>Líquida</center>
                             </tr>
                             <tr bgcolor='#B0C4DE'>
-                                <td></td>
+                                <th></th>
                                 <th scope="col">
                                     <center>SC'S</center>
                                 </th>
@@ -142,7 +148,7 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="row" bgcolor="#F0FFFF">
+                                <th scope="row" class="color">
                                     <center>R$</center>
                                 </th>
                                 <td>
@@ -179,8 +185,48 @@
                         </tbody>
                         <tbody>
                             <tr>
-                                <th scope="row" bgcolor='#F0FFFF'>
+                                <th scope="row" class="color">
                                     <center>% R/P</center>
+                                </th>
+                                <?php 
+                                 $a = 10.56;
+                              if($a>0){
+                                    echo "<td><center><font class='verde'>$a%</center></td>";
+                              }else{
+                                    echo "<td><font class='vermelho'>$a%</center></td>";
+                                }
+                                $a = 0;
+                                if($a>0){
+                                      echo "<td><center><font class='verde'>%</center></td>";
+                                }else{
+                                      echo "<td><font class='vermelho'>$a%</center></td>";
+                                  }
+                                $a = 10;
+                                if($a>0){
+                                        echo "<td colspan='6'><center><font class='verde'></center></td>";
+                                  }else{
+                                        echo "<td><font class='vermelho'>$a%</center></td>";
+                                    }
+                                    $a = 99.45;
+                                    if($a>0){
+                                        echo "<td><center><font class='verde'>$a%</center></td>";
+                                  }else{
+                                        echo "<td><font class='vermelho'>$a%</center></td>";
+                                    }
+                                    $a = 99.45;
+                                    if($a>0){
+                                        echo "<td><center><font class='verde'>$a%</center></td>";
+                                  }else{
+                                        echo "<td><font class='vermelho'>$a%</center></td>";
+                                   }
+                                                                           
+                                 ?>
+                        </tbody>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="color">
+                                    <center>%YOY</center>
                                 </th>
                                 <?php 
                                  $a = 10.56;
@@ -212,223 +258,85 @@
                                         echo "<td><center><font class='verde'>$a%</center></td>";
                                   }else{
                                         echo "<td><font class='vermelho'>$a%</center></td>";
-                                    }
-                                    $a = 99.45;
-                                    if($a>0){
-                                        echo "<td><center><font class='verde'>$a%</center></td>";
-                                  }else{
-                                        echo "<td><font class='vermelho'>$a%</center></td>";
-                                    }
-                                    $a = 99.45;
-                                    if($a>0){
-                                        echo "<td><center><font class='verde'>$a%</center></td>";
-                                  }else{
-                                        echo "<td><font class='vermelho'>$a%</center></td>";
-                                    }
-                                    $a = 0;
-                                    if($a>0){
-                                        echo "<td><center><font class='verde'>$a%</center></td>";
-                                  }else{
-                                        echo "<td><font class='vermelho'>$a%</center></td>";
-                                    }
-                                    $a = 0;
-                                    if($a>0){
-                                        echo "<td><center><font class='verde'>$a%</center></td>";
-                                  }else{
-                                        echo "<td><font class='vermelho'>$a%</center></td>";
-                                    }
-                                    $a = 0;
-                                    if($a>0){
-                                        echo "<td><center><font class='verde'>$a%</center></td>";
-                                  }else{
-                                        echo "<td><font class='vermelho'>$a%</center></td>";
-                                    }                        
+                                   }
+                                   $a = 99.45;
+                                   if($a>0){
+                                       echo "<td><center><font class='verde'>$a%</center></td>";
+                                 }else{
+                                       echo "<td><font class='vermelho'>$a%</center></td>";
+                                  }
+                                  $a = 99.45;
+                                  if($a>0){
+                                      echo "<td><center><font class='verde'>$a%</center></td>";
+                                }else{
+                                      echo "<td><font class='vermelho'>$a%</center></td>";
+                                 }
+                                 $a = 99.45;
+                                 if($a>0){
+                                     echo "<td><center><font class='verde'>$a%</center></td>";
+                               }else{
+                                     echo "<td><font class='vermelho'>$a%</center></td>";
+                                }
+                                $a = 99.45;
+                                if($a>0){
+                                    echo "<td><center><font class='verde'>$a%</center></td>";
+                              }else{
+                                    echo "<td><font class='vermelho'>$a%</center></td>";
+                               }
+                               $a = 99.45;
+                               if($a>0){
+                                   echo "<td><center><font class='verde'>$a%</center></td>";
+                             }else{
+                                   echo "<td><font class='vermelho'>$a%</center></td>";
+                              }
+                                                                           
                                  ?>
-                        </tbody>
-                        </tbody>
-                        <tbody>
-                            <tr>
-                                <th scope="row" bgcolor='#F0FFFF'>
-                                    <center>%YOY</center>
-                                </th>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
                             </tr>
                         </tbody>
                         <tbody>
                             <tr>
-                                <th scope="row" bgcolor='#F0FFFF'>
-                                    <center>R$/m²</center>
-                                </th>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
+                                <th scope="row" class="color">% R/P</th>
+                                <?php
+                                 $a = 0;
+                                 if($a>0){
+                                       echo "<td><center><font class='verde'>$a%</center></td>";
+                                 }else{
+                                       echo "<td><font class='vermelho'>$a%</center></td>";
+                                   }
+                                   $a = 50;
+                                   if($a>0){
+                                         echo "<td><center><font class='verde'>$a%</center></td>";
+                                   }else{
+                                         echo "<td><font class='vermelho'>$a%</center></td>";
+                                     }
+
+                                ?>
                             </tr>
                         </tbody>
                         <tbody>
                             <tr>
-                                <th scope="row" bgcolor='#F0FFFF'>R$/m²</th>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                            </tr>
-                        </tbody>
-                        <tbody>
-                            <tr>
-                                <th scope="row" bgcolor='#F0FFFF'>% R/P</th>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                            </tr>
-                        </tbody>
-                        <tbody>
-                            <tr>
-                                <th scope="row" bgcolor='#F0FFFF'>%YOY</th>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
-                                <td>
-                                    <center></center>
-                                </td>
+                                <th scope="row" class="color">%YOY</th>
+                                <?php
+                                 $a = 0;
+                                 if($a>0){
+                                       echo "<td><center><font class='verde'>$a%</center></td>";
+                                 }else{
+                                       echo "<td><font class='vermelho'>$a%</center></td>";
+                                   }
+                                   $a = 50;
+                                   if($a>0){
+                                         echo "<td><center><font class='verde'>$a%</center></td>";
+                                   }else{
+                                         echo "<td><font class='vermelho'>$a%</center></td>";
+                                     }
+
+                                ?>
                             </tr>
                             <tr>
                                 <th scope="col" bgcolor='#B0C4DE' colspan="7">
                                     <center>ESTOQUE INÍCIO ANO R$</center>
                                 </th>
-                                <td colspan="5" bgcolor='#B0C4DE' class="azul">24.23423</td>
+                                <th colspan="5">24.23423</th>
                             </tr>
                         </tbody>
                     </table>
@@ -476,7 +384,7 @@
                     </table>
                     <table class="table table-bordered">
                         <thead>
-                            <tr bgcolor='#B0C4DE'>
+                            <tr class="color">
                                 <th scope="col" rowspan="2">
                                     <center>Aging/Descr</center>
                                 </th>
@@ -493,7 +401,7 @@
                                     <cneter>Aging Recuperação*</cneter>
                                 </th>
                             </tr>
-                            <tr bgcolor='#B0C4DE'>
+                            <tr class="color">
                                 <th scope="col">
                                     <center>Vlr Original </center>
                                 </th>
@@ -510,7 +418,7 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="row" bgcolor='#F0FFFF'>
+                                <th scope="row" class="color">
                                     <center>1 à 30</center>
                                 </th>
                                 <td>
@@ -538,7 +446,7 @@
                         </tbody>
                         <tbody>
                             <tr>
-                                <th scope="row" bgcolor='#F0FFFF'>
+                                <th scope="row" class="color">
                                     <center>31 à 60</center>
                                 </th>
                                 <td>
@@ -567,7 +475,7 @@
                         </tbody>
                         <tbody>
                             <tr>
-                                <th scope="row" bgcolor='#F0FFFF'>
+                                <th scope="row" class="color">
                                     <center>61 à 90</center>
                                 </th>
                                 <td>
@@ -595,7 +503,7 @@
                         </tbody>
                         <tbody>
                             <tr>
-                                <th scope="row" bgcolor='#F0FFFF'>
+                                <th scope="row" class="color">
                                     <center>91 à 180</center>
                                 </th>
                                 <td>
@@ -623,7 +531,7 @@
                         </tbody>
                         <tbody>
                             <tr>
-                                <th scope="row" bgcolor='#F0FFFF'>
+                                <th scope="row" class="color">
                                     <center>PCLD</center>
                                 </th>
                                 <td>
@@ -651,7 +559,7 @@
                         </tbody>
                         <tbody>
                             <tr>
-                                <th scope="row" bgcolor='#F0FFFF'>
+                                <th scope="row" class="color">
                                     <center>Sub-Total</center>
                                 </th>
                                 <td>
@@ -679,7 +587,7 @@
                         </tbody>
                         <tbody>
                             <tr>
-                                <th scope="row" bgcolor='#F0FFFF'>
+                                <th scope="row" class="color">
                                     <center>Inativos</center>
                                 </th>
                                 <td>
@@ -707,7 +615,7 @@
                         </tbody>
                         <tbody>
                             <tr>
-                                <th scope="row" bgcolor='#F0FFFF'>
+                                <th scope="row" class="color">
                                     <center>Total</center>
                                 </th>
                                 <td>
@@ -738,13 +646,13 @@
                         <h2>Inadimplência Líquida Nesta Data</h2>
                         <tr bgcolor='#B0C4DE'>
                             <th>
-                                <font color="#3A5FCD" size="4">R$</center>
+                                <center>R$</center>
                             </th>
-                            <td class="azul">34543</td>
+                            <th>34543</th>
                             <th>
-                                <font color="#3A5FCD" size="4">%</center>
+                                <center>%</center>
                             </th>
-                            <td class="azul">34543</td>
+                            <th>34543</th>
                         </tr>
                     </table>
                 </div>

@@ -49,7 +49,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="tabelaFluxo.php">
                         <span data-feather="file-text"></span>
-                         Fluxo de pessoas
+                        Fluxo de pessoas
                     </a>
                 </li>
                 </li>
@@ -67,6 +67,12 @@
                 </li>
     </nav>
     <div class="container">
+            <br>
+            <center>
+                <img src="image/tenco.png" />
+            </center>
+        </div>
+    <div class="container">
         <div class="jumbotron">
             <div class="menu" id="menu">
                 <div class="table-responsive">
@@ -81,11 +87,11 @@
                                 <th scope="col" colspan="2">
                                     <center>Meta de 2018(R$)</center>
                                 </th>
-                                <td class="azul">466</td>
+                                <th>466</th>
                                 <th scope="col" colspan="3">
                                     <center>Meta de 2018(R$/m²)</center>
                                 </th>
-                                <td class="azul">664</td>
+                                <th>664</th>
                             </tr>
                             <tr bgcolor='#B0C4DE'>
                                 <th scope="col" rowspan="3">
@@ -119,12 +125,12 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr bgcolor="#FFFFF0">
-                                <th scope="row" bgcolor='#F0FFFF'>
+                            <tr>
+                                <th scope="row" class="color">
                                     <center>R$</center>
                                 </th>
                                 <td>34324</td>
-                                <td></td>
+                                <td>54545</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -132,36 +138,95 @@
 
 
                             </tr>
-                            <tr bgcolor="#FFFFF0">
-                                <th bgcolor='#F0FFFF' scope="row">
+                            <tr>
+                                <th class="color" scope="row">
                                     <center>% R/P</center>
                                 </th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-
-
-
-
+                                <?php
+                                 $a = 0;
+                                 if($a>0){
+                                       echo "<td><center><font class='verde'>$a%</center></td>";
+                                 }else{
+                                       echo "<td><font class='vermelho'>$a%</center></td>";
+                                 }
+                                   $a = 50;
+                                   if($a>0){
+                                         echo "<td><center><font class='verde'>$a%</center></td>";
+                                   }else{
+                                         echo "<td><font class='vermelho'>$a%</center></td>";
+                                   }
+                                   $a = 0;
+                                   if($a>0){
+                                         echo "<td><center><font class='verde'>$a%</center></td>";
+                                   }else{
+                                         echo "<td><font class='vermelho'>$a%</center></td>";
+                                     }
+                                     $a = 50;
+                                     if($a>0){
+                                           echo "<td><center><font class='verde'>$a%</center></td>";
+                                     }else{
+                                           echo "<td><font class='vermelho'>$a%</center></td>";
+                                       }
+                                       $a = 0;
+                                       if($a>0){
+                                             echo "<td><center><font class='verde'>$a%</center></td>";
+                                       }else{
+                                             echo "<td><font class='vermelho'>$a%</center></td>";
+                                         }
+                                         $a = 50;
+                                         if($a>0){
+                                               echo "<td><center><font class='verde'>$a%</center></td>";
+                                         }else{
+                                               echo "<td><font class='vermelho'>$a%</center></td>";
+                                          }
+                                              
+                                ?>
                             </tr>
-                            <tr bgcolor="#FFFFF0">
-                                <th bgcolor='#F0FFFF' scope="row">
+                            <tr>
+                                <th class="color" scope="row">
                                     <center>% YOY</center>
                                 </th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-
-
+                                        <?php
+                                            $a = 0;
+                                            if($a>0){
+                                               echo "<td><center><font class='verde'>$a%</center></td>";
+                                            }else{
+                                               echo "<td><font class='vermelho'>$a%</center></td>";
+                                            }
+                                            $a = 50;
+                                            if($a>0){
+                                               echo "<td><center><font class='verde'>$a%</center></td>";
+                                            }else{
+                                               echo "<td><font class='vermelho'>$a%</center></td>";
+                                            }
+                                            $a = 0;
+                                           if($a>0){
+                                                echo "<td><center><font class='verde'>$a%</center></td>";
+                                            }else{
+                                              echo "<td><font class='vermelho'>$a%</center></td>";
+                                            }
+                                            $a = 50;
+                                            if($a>0){
+                                                echo "<td><center><font class='verde'>$a%</center></td>";
+                                            }else{
+                                                echo "<td><font class='vermelho'>$a%</center></td>";
+                                            }
+                                            $a = 0;
+                                            if($a>0){
+                                               echo "<td><center><font class='verde'>$a%</center></td>";
+                                            }else{
+                                               echo "<td><font class='vermelho'>$a%</center></td>";
+                                            }
+                                            $a = 50;
+                                            if($a>0){
+                                              echo "<td><center><font class='verde'>$a%</center></td>";
+                                            }else{
+                                              echo "<td><font class='vermelho'>$a%</center></td>";
+                                            }
+                              ?>
                             </tr>
-                            <tr bgcolor="#FFFFF0">
-                                <th bgcolor='#F0FFFF' scope="row">
+                            <tr>
+                                <th class="color" scope="row">
                                     <center>R$ / M²</center>
                                 </th>
                                 <td></td>
@@ -173,31 +238,91 @@
 
 
                             </tr>
-                            <tr bgcolor="#FFFFF0">
-                                <th bgcolor='#F0FFFF' scope="row">
+                            <tr>
+                                <th class="color" scope="row">
                                     <center>% R/P</center>
                                 </th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-
-
+                                <?php
+                                            $a = 0;
+                                            if($a>0){
+                                               echo "<td><center><font class='verde'>$a%</center></td>";
+                                            }else{
+                                               echo "<td><font class='vermelho'>$a%</center></td>";
+                                            }
+                                            $a = 50;
+                                            if($a>0){
+                                               echo "<td><center><font class='verde'>$a%</center></td>";
+                                            }else{
+                                               echo "<td><font class='vermelho'>$a%</center></td>";
+                                            }
+                                            $a = 0;
+                                           if($a>0){
+                                                echo "<td><center><font class='verde'>$a%</center></td>";
+                                            }else{
+                                              echo "<td><font class='vermelho'>$a%</center></td>";
+                                            }
+                                            $a = 50;
+                                            if($a>0){
+                                                echo "<td><center><font class='verde'>$a%</center></td>";
+                                            }else{
+                                                echo "<td><font class='vermelho'>$a%</center></td>";
+                                            }
+                                            $a = 0;
+                                            if($a>0){
+                                               echo "<td><center><font class='verde'>$a%</center></td>";
+                                            }else{
+                                               echo "<td><font class='vermelho'>$a%</center></td>";
+                                            }
+                                            $a = 50;
+                                            if($a>0){
+                                              echo "<td><center><font class='verde'>$a%</center></td>";
+                                            }else{
+                                              echo "<td><font class='vermelho'>$a%</center></td>";
+                                            }
+                              ?>
                             </tr>
-                            <tr bgcolor="#FFFFF0">
-                                <th bgcolor='#F0FFFF' scope="row">
+                            <tr>
+                                <th class="color" scope="row">
                                     <center>% YOY</center>
                                 </th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-
-
+                                          <?php
+                                            $a = 0;
+                                            if($a>0){
+                                               echo "<td><center><font class='verde'>$a%</center></td>";
+                                            }else{
+                                               echo "<td><font class='vermelho'>$a%</center></td>";
+                                            }
+                                            $a = 50;
+                                            if($a>0){
+                                               echo "<td><center><font class='verde'>$a%</center></td>";
+                                            }else{
+                                               echo "<td><font class='vermelho'>$a%</center></td>";
+                                            }
+                                            $a = 0;
+                                           if($a>0){
+                                                echo "<td><center><font class='verde'>$a%</center></td>";
+                                            }else{
+                                              echo "<td><font class='vermelho'>$a%</center></td>";
+                                            }
+                                            $a = 50;
+                                            if($a>0){
+                                                echo "<td><center><font class='verde'>$a%</center></td>";
+                                            }else{
+                                                echo "<td><font class='vermelho'>$a%</center></td>";
+                                            }
+                                            $a = 0;
+                                            if($a>0){
+                                               echo "<td><center><font class='verde'>$a%</center></td>";
+                                            }else{
+                                               echo "<td><font class='vermelho'>$a%</center></td>";
+                                            }
+                                            $a = 50;
+                                            if($a>0){
+                                              echo "<td><center><font class='verde'>$a%</center></td>";
+                                            }else{
+                                              echo "<td><font class='vermelho'>$a%</center></td>";
+                                            }
+                              ?>
                             </tr>
                         </tbody>
                     </table>
@@ -212,15 +337,15 @@
                                 <th scope="col">
                                     <center>R$</center>
                                 </th>
-                                <td class="azul">
+                                <th>
                                     <center>5454</center>
-                                </td>
+                                </th>
                                 <th scope="col">
                                     <center>R$/m²</center>
                                 </th>
-                                <td class="azul">
+                                <th>
                                     <center>5545</center>
-                                </td>
+                                </th>
                             </tr>
                         </thead>
                     </table>
