@@ -1,6 +1,6 @@
 .table-bordered {
     border: 1px solid silver;
-    background-color: #D3D3D3;
+    background-color:#dfdbdb;
     border-color: #FFFFF0;
 }
 
@@ -20,21 +20,27 @@ th {
     background-color: rgb(51, 63, 79);
     font-family: 'Century Gothic';
     font-weight: normal;
+    height: auto;
+    font-size:14px;
 }
 
+
 td {
-    color: white;
-    font-weight: bold;
+    color: black;
+    font-weight: normal;
     width: 33%;
-    background-color: #A9A9A9;
+    background-color:#FFFFFF;
+    text-align: right;
 }
 
 th.color {
-    color: white;
-    font-weight: bold;
-    width: 33%;
-    background-color: rgb(29, 54, 101);
+    color: black;
+    font-weight: normal;
+    width: 50%;
+    height: 30px;
+    background-color: #FFF8DC;
     font-family: 'Century Gothic';
+    font-size:15px;
 }
 
 table {
@@ -61,11 +67,11 @@ td.azul {
 
 .table-bordered td,
 .table-bordered th {
-    border: 1px solid whitesmoke !important;
+    border: 1px solid silver !important;
     table-layout: fixed;
     box-sizing: border-box;
     border-collapse: collapse;
-    width: 20px;
+    width: 30px;
     height: 20px;
     padding: 10px;
 }
@@ -75,7 +81,7 @@ td.azul {
     padding: 0.75rem;
     vertical-align: top;
     border-top: 1px solid whitesmoke;
-    width: 30px;
+    width: 100px;
     height: 30px;
     padding: 5px;
 }
@@ -136,6 +142,16 @@ li {
     white-space: nowrap
 }
 
+#celula1 {
+    width: 100px;
+    padding: 10px;
+}
+
+#celula2 {
+    width: 200px;
+    padding: 10px;
+}
+
 .teste {
     background-color: gray;
 }
@@ -149,5 +165,7 @@ td.especial {
     background-color: #dfdbdb;
     border-color: #dfdbdb;
     border: 1px solid whitesmoke !important;
-    
+    width: 20px;
+    height: 30px;
+    padding: 5px;
 }

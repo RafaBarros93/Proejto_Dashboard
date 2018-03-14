@@ -77,8 +77,9 @@
                     </p>
                     </center>
                     <thead>
+                        <!--Tabela Estacionamento Receita  -->
                         <table class="table table-bordered">
-                            <tr bgcolor='#B0C4DE'>
+                            <tr>
                                 <th scope="col" rowspan="2">
                                     <center>
                                         <br>Shopping
@@ -93,7 +94,7 @@
                                 <th scope="col" colspan="3">
                                     <center>YTD</center>
                                 </th>
-                                <tr bgcolor='#B0C4DE'>
+                                <tr>
                                     <th>
                                         <center>2017</center>
                                     </th>
@@ -126,171 +127,422 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row" bgcolor='#F0FFFF'>
-                                <center>EAGS</center>
+                            <th scope="row" class='color'>
+                                <center>AGS</center>
                             </th>
                             <td></td>
                             <td></td>
+                            <?php 
+                                $a = 99.45;
+                                if($a>0){
+                                    echo "<td><font class='verde'>$a%</td>";
+                                }else{
+                                    echo "<td><font class='vermelho'>$a%</td>";
+                                }
+                              
+                              ?>
                             <td></td>
                             <td></td>
+                            <?php 
+                                $a = 99.45;
+                                if($a>0){
+                                    echo "<td><font class='verde'>$a%</td>";
+                                }else{
+                                    echo "<td><font class='vermelho'>$a%</td>";
+                                }
+                              ?>
                             <td></td>
                             <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <?php 
+                                $a = 99.45;
+                                if($a>0){
+                                    echo "<td><font class='verde'>$a%</td>";
+                                }else{
+                                    echo "<td><font class='vermelho'>$a%</td>";
+                                }
+                              ?>
                         </tr>
                         <tr>
-                            <th scope="row" bgcolor='#F0FFFF'>
-                                <center>EARA</center>
+                            <th scope="row" class='color'>
+                                <center>ARA</center>
                             </th>
                             <td></td>
                             <td></td>
+                            <?php 
+                               $a = 99.45;
+                               if($a>0){
+                                   echo "<td><font class='verde'>$a%</td>";
+                               }else{
+                                   echo "<td><font class='vermelho'>$a%</td>";
+                               }
+                              ?>
                             <td></td>
                             <td></td>
+                            <?php 
+                               $a = 99.45;
+                                if($a>0){
+                                    echo "<td><font class='verde'>$a%</td>";
+                                }else{
+                                    echo "<td><font class='vermelho'>$a%</td>";
+                                }
+                              ?>
                             <td></td>
                             <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <?php 
+                            $a = 99.45;
+                            if($a>0){
+                                echo "<td><font class='verde'>$a%</td>";
+                            }else{
+                                echo "<td><font class='vermelho'>$a%</td>";
+                            }
+                              ?>
                         </tr>
                         <tr>
-                            <th scope="row" bgcolor='#F0FFFF'>
-                                <center>EBRG</center>
+                            <th scope="row" class='color'>
+                                <center>BRG</center>
                             </th>
                             <td></td>
                             <td></td>
+                            <?php 
+                             $a = 99.45;
+                             if($a>0){
+                                 echo "<td><font class='verde'>$a%</td>";
+                             }else{
+                                 echo "<td><font class='vermelho'>$a%</td>";
+                             }
+                              ?>
                             <td></td>
                             <td></td>
+                            <?php 
+                                $a = 99.45;
+                                if($a>0){
+                                    echo "<td><font class='verde'>$a%</td>";
+                                }else{
+                                    echo "<td><font class='vermelho'>$a%</td>";
+                                }
+                              ?>
                             <td></td>
                             <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <?php 
+                                $a = 99.45;
+                                if($a>0){
+                                    echo "<td><font class='verde'>$a%</td>";
+                                }else{
+                                    echo "<td><font class='vermelho'>$a%</td>";
+                                }
+                              ?>
                         </tr>
                         <tr>
-                            <th scope="row" bgcolor='#F0FFFF'>
-                                <center>ECCARI</center>
+                            <th scope="row" class='color'>
+                                <center>CCR</center>
                             </th>
                             <td></td>
                             <td></td>
+                            <?php 
+                                $a = -99.45;
+                                if($a>0){
+                                    echo "<td><font class='verde'>$a%</td>";
+                                }else{
+                                    echo "<td><font class='vermelho'>$a%</td>";
+                                }
+                              ?>
                             <td></td>
                             <td></td>
+                            <?php 
+                                $a = 99.45;
+                                if($a>0){
+                                    echo "<td><font class='verde'>$a%</td>";
+                                }else{
+                                    echo "<td><font class='vermelho'>$a%</td>";
+                                }
+                              ?>
                             <td></td>
                             <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <?php 
+                                $a = 99.45;
+                                if($a>0){
+                                    echo "<td><font class='verde'>$a%</td>";
+                                }else{
+                                    echo "<td><font class='vermelho'>$a%</td>";
+                                }
+                              ?>
                         </tr>
                         <tr>
-                            <th scope="row" bgcolor='#F0FFFF'>
-                                <center>EITQ</center>
+                            <th scope="row" class='color'>
+                                <center>ITQ</center>
                             </th>
                             <td></td>
                             <td></td>
+                            <?php 
+                                $a = 99.45;
+                                if($a>0){
+                                    echo "<td><font class='verde'>$a%</td>";
+                                }else{
+                                    echo "<td><font class='vermelho'>$a%</td>";
+                                }
+                              ?>
                             <td></td>
                             <td></td>
+                            <?php 
+                            $a = 99.45;
+                            if($a>0){
+                                echo "<td><font class='verde'>$a%</td>";
+                            }else{
+                                echo "<td><font class='vermelho'>$a%</td>";
+                            }
+                              ?>
                             <td></td>
                             <td></td>
+                            <?php 
+                            $a = 99.45;
+                            if($a>0){
+                                echo "<td><font class='verde'>$a%</td>";
+                            }else{
+                                echo "<td><font class='vermelho'>$a%</td>";
+                            }
+                              ?>
+                        </tr>
+                        <tr>
+                            <th scope="row" class='color'>
+                                <center>JRS</center>
+                            </th>
                             <td></td>
                             <td></td>
+                            <?php 
+                            $a = 99.45;
+                            if($a>0){
+                                echo "<td><font class='verde'>$a%</td>";
+                            }else{
+                                echo "<td><font class='vermelho'>$a%</td>";
+                            }
+                              ?>
                             <td></td>
-                            <tr>
-                                <th scope="row" bgcolor='#F0FFFF'>
-                                    <center>EJRS</center>
-                                </th>
+                            <td></td>
+                            <?php 
+                            $a = 99.45;
+                            if($a>0){
+                                echo "<td><font class='verde'>$a%</td>";
+                            }else{
+                                echo "<td><font class='vermelho'>$a%</td>";
+                            }
+                              ?>
+                            <td></td>
+                            <td></td>
+                            <?php 
+                             $a = 99.45;
+                             if($a>0){
+                                 echo "<td><font class='verde'>$a%</td>";
+                             }else{
+                                 echo "<td><font class='vermelho'>$a%</td>";
+                             }
+                              ?>
+                        </tr>
+                        <tr>
+                            <th scope="row" class='color'>
+                                <center>LGS</center>
+                            </th>
+                            <td></td>
+                            <td></td>
+                            <?php 
+                            $a = 99.45;
+                            if($a>0){
+                                echo "<td><font class='verde'>$a%</td>";
+                            }else{
+                                echo "<td><font class='vermelho'>$a%</td>";
+                            }
+                              ?>
+                            <td></td>
+                            <td></td>
+                            <?php 
+                            $a = 99.45;
+                            if($a>0){
+                                echo "<td><font class='verde'>$a%</td>";
+                            }else{
+                                echo "<td><font class='vermelho'>$a%</td>";
+                            }
+                              ?>
+                            <td></td>
+                            <td></td>
+                            <?php 
+                           $a = 99.45;
+                           if($a>0){
+                               echo "<td><font class='verde'>$a%</td>";
+                           }else{
+                               echo "<td><font class='vermelho'>$a%</td>";
+                           }
+                              ?>
+                        </tr>
+                        <tr>
+                            <th scope="row" class='color'>
+                                <center>RRM</center>
+                            </th>
+                            <td></td>
+                            <td></td>
+                            <?php 
+                            $a = 99.45;
+                            if($a>0){
+                                echo "<td><font class='verde'>$a%</td>";
+                            }else{
+                                echo "<td><font class='vermelho'>$a%</td>";
+                            }
+                              ?>
+                            <td></td>
+                            <td></td>
+                            <?php 
+                            $a = 99.45;
+                            if($a>0){
+                                echo "<td><font class='verde'>$a%</td>";
+                            }else{
+                                echo "<td><font class='vermelho'>$a%</td>";
+                            }
+                              ?>
+                            <td></td>
+                            <td></td>
+                            <?php 
+                                $a = 99.45;
+                                if($a>0){
+                                    echo "<td><font class='verde'>$a%</td>";
+                                }else{
+                                    echo "<td><font class='vermelho'>$a%</td>";
+                                }
+                            ?>
+                        </tr>
+                        <tr>
+                            <th scope="row" class='color'>
+                                <center>VCF</center>
                                 <td></td>
                                 <td></td>
+                                <?php 
+                                $a = 99.45;
+                                if($a>0){
+                                    echo "<td><font class='verde'>$a%</td>";
+                                }else{
+                                    echo "<td><font class='vermelho'>$a%</td>";
+                                }
+                              ?>
                                 <td></td>
                                 <td></td>
+                                <?php 
+                                 $a = 99.45;
+                                 if($a>0){
+                                     echo "<td><font class='verde'>$a%</td>";
+                                 }else{
+                                     echo "<td><font class='vermelho'>$a%</td>";
+                                 }
+                              ?>
                                 <td></td>
                                 <td></td>
+                                <?php 
+                                 $a = 99.45;
+                                 if($a>0){
+                                     echo "<td><font class='verde'>$a%</td>";
+                                 }else{
+                                     echo "<td><font class='vermelho'>$a%</td>";
+                                 }
+                              ?>
+                        </tr>
+                        <tr>
+                            <th scope="row" class='color'>
+                                <center>VVS</center>
                                 <td></td>
                                 <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th scope="row" bgcolor='#F0FFFF'>
-                                    <center>ELGS</center>
-                                </th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <?php 
+                                $a = 99.45;
+                                if($a>0){
+                                    echo "<td><font class='verde'>$a%</td>";
+                                }else{
+                                    echo "<td><font class='vermelho'>$a%</td>";
+                                }
+                              ?>
                                 <td></td>
                                 <td></td>
+                                <?php 
+                                $a = 99.45;
+                                if($a>0){
+                                    echo "<td><font class='verde'>$a%</td>";
+                                }else{
+                                    echo "<td><font class='vermelho'>$a%</td>";
+                                }
+                              ?>
                                 <td></td>
                                 <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th scope="row" bgcolor='#F0FFFF'>
-                                    <center>ERRM</center>
-                                </th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th scope="row" bgcolor='#F0FFFF'>
-                                    <center>EVCF</center>
-                                </th>
+                                <?php 
+                                $a = 99.45;
+                                if($a>0){
+                                    echo "<td><font class='verde'>$a%</td>";
+                                }else{
+                                    echo "<td><font class='vermelho'>$a%</td>";
+                                }
+                              ?>
+                        </tr>
+                        <tr>
+                            <th scope="row" class='color'>
+                                <center>Total</center>
                                 <td></td>
                                 <td></td>
+                                <?php 
+                               $a = 99.45;
+                               if($a>0){
+                                   echo "<td><font class='verde'>$a%</td>";
+                               }else{
+                                   echo "<td><font class='vermelho'>$a%</td>";
+                               }
+                              ?>
                                 <td></td>
                                 <td></td>
+                                <?php 
+                                $a = 99.45;
+                                if($a>0){
+                                    echo "<td><font class='verde'>$a%</td>";
+                                }else{
+                                    echo "<td><font class='vermelho'>$a%</td>";
+                                }
+                              ?>
                                 <td></td>
                                 <td></td>
+                                <?php 
+                               $a = 99.45;
+                               if($a>0){
+                                   echo "<td><font class='verde'>$a%</td>";
+                               }else{
+                                   echo "<td><font class='vermelho'>$a%</td>";
+                               }
+                              ?>
+                        </tr>
+                        <tr>
+                            <th scope="row" class='color'>
+                                <center>Média</center>
                                 <td></td>
                                 <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th scope="row" bgcolor='#F0FFFF'>
-                                    <center>EVVS</center>
-                                </th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <?php 
+                              $a = 99.45;
+                              if($a>0){
+                                  echo "<td><font class='verde'>$a%</td>";
+                              }else{
+                                  echo "<td><font class='vermelho'>$a%</td>";
+                              }
+                              ?>
                                 <td></td>
                                 <td></td>
+                                <?php 
+                                $a = 99.45;
+                                if($a>0){
+                                    echo "<td><font class='verde'>$a%</td>";
+                                }else{
+                                    echo "<td><font class='vermelho'>$a%</td>";
+                                }
+                              ?>
                                 <td></td>
                                 <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th scope="row" bgcolor='#F0FFFF'>
-                                    <center>Total</center>
-                                </th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <tr>
-                                    <th scope="row" bgcolor='#F0FFFF'>
-                                        <center>Média</center>
-                                    </th>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
+                                <?php 
+                                 $a = 99.45;
+                                 if($a>0){
+                                     echo "<td><font class='verde'>$a%</td>";
+                                 }else{
+                                     echo "<td><font class='vermelho'>$a%</td>";
+                                 }
+                              ?>
+                        </tr>
                     </tbody>
                     </table>
             </div>
