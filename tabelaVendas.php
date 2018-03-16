@@ -12,7 +12,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="dashboard.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/tabelas.css" rel="stylesheet">
 </head>
 
 <body>

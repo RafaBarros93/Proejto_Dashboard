@@ -12,17 +12,16 @@ th {
     font-family: 'Century Gothic';
     font-weight: normal;
     height: auto;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 /*Configuração do cabeçalho da tabela inadimplência */
 
 th.cabecalho {
     text-align: center;
-    height: fit-content;
-    width: fit-content;
-    font-size: 20px;
-    
+    height: max-content;
+    width: max-content;
+    font-size: 16px;
 }
 
 td {

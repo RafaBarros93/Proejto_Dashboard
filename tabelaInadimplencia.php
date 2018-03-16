@@ -11,14 +11,14 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Dashboard</title>
+    <title>VP6 It Consulting</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="dashboard.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/tabelas.css?version=15" rel="stylesheet">
 </head>
 
 <body>
@@ -88,26 +88,40 @@
                     <table class="table table-bordered">
                         <thead>
                             <tr>
-                                <th scope="col" bgcolor=#B0C4DE colspan="2">
+                                <th scope="col" bgcolor=#B0C4DE colspan="2" rowspan="1">
                                     <center>
                                         R$</center>
                                 </th>
-                                <th class="azul" colspan="3">
+                                <th class="azul" colspan="3" rowspan="1">
                                     <center>15.62617</th>
-                                <th scope="col" colspan="3">
+                                <th scope="col" colspan="3" rowspan="1" rowspan="1">
                                     <center> %</center>
 
                                 </th>
-                                <th colspan="3">
+                                <th colspan="3" rowspan="1">
                                     <center>15%</center>
                                 </th>
                             </tr>
                             <tr>
-                                <th scope="col" rowspan="2"><br>Visão</br><br>Descrição</br><br></th>
-                                <th scope="col" colspan="2"> <center>Faturamento com vencimento no mês atual (Empreendedor)</center></th>
-                                <th scope="col" colspan="2">Arrecadação do Mês</center></th>   
-                                <th scope="col" colspan="4"> <center>Recuperação do Mês</center></th>
-                                <th scope="col" colspan="2"> <center>Inadimplência Líquida</center></th>
+                                <th scope="col" rowspan="2" class="cabecalho">
+                                    <br>Visão</br>
+                                    <br>Descrição</br>
+                                    <br>
+                                </th>
+                                <th scope="col" colspan="2" class="cabecalho">
+                                    Faturamento com vencimento no mês atual (Empreendedor)
+                                </th>
+                                <th scope="col" colspan="2" class="cabecalho">
+                                    <p>Arrecadação do Mês</p>
+                                </th>
+                                <th scope="col" colspan="4" class="cabecalho">
+
+                                    <p>Recuperação do Mês</p>
+
+                                </th>
+                                <th scope="col" colspan="2" class="cabecalho">
+                                    <P>Inadimplência Líquida</p>
+                                </th>
                             </tr>
                             <tr>
 
@@ -466,7 +480,7 @@
                                 <th scope="row" class="color">
                                     <center>Total</center>
                                 </th>
-                               <td>3432</td>
+                                <td>3432</td>
                                 <td>3432</td>
                                 <td>3432</td>
                                 <td>3432</td>
